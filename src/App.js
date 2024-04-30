@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import BannerPage from './component/BannerPage';
+import Header from './component/Header';
 function App() {
   return (
     <>
-     <h1 className="text-lg font-semibold text-center">Hello </h1>
+     <Header/>
+     <BannerPage/>
     </>
   );
 }
